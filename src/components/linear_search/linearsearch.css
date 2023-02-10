@@ -1,0 +1,38 @@
+.animation-container{
+    height: 85%;
+    width: 100%;
+}
+
+.node{
+    height: calc(3vw + 3vh);
+    width: calc(3vw + 3vh);
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.key{
+    position: relative;
+    margin: 10px;
+    height: calc(3vw + 3vh);
+    width: calc(3vw + 3vh);
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.array-value::-webkit-inner-spin-button, 
+.array-value::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.instructions {
+    position: relative;
+    text-align: center;
+    top:-90px;
+    height:80px;
+    padding-top: 10px!important;
+    margin-bottom: -75px!important;
+}

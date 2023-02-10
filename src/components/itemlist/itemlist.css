@@ -1,0 +1,39 @@
+.list-group-container {
+    background-color: #555;
+    max-height: 90%;
+    height: 70vh;
+    border-radius: 10px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.list-title {
+    width: 100%;
+    background-color: cyan;
+    color: red;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* width */
+.list-group-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.list-group-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.list-group-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.list-group-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

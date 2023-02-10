@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "Searching",
+        "key": "searching",
+        "algorithms": [
+            {
+                "id": 1,
+                "name": "Linear Search",
+                "key": "lin-search"
+            },
+            {
+                "id": 2,
+                "name": "Binary Search",
+                "key": "bin-search"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sorting",
+        "key": "sorting",
+        "algorithms": [
+            {
+                "id": 1,
+                "name": "Bubble Sort",
+                "key": "bubble-sort"
+            },
+            {
+                "id": 2,
+                "name": "Incremental Sort",
+                "key": "inc-sort"
+            }
+        ]
+    }
+]
